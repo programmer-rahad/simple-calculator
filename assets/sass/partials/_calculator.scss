@@ -1,0 +1,62 @@
+/* Start Calculator Design */
+.calc-wrap {
+    background-color: #4d4d4d;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px 15px;
+    margin-top: 30px;
+
+    .d-output {
+        font-family: 'Digital-7';
+        background-color: #d0e6a8;
+        text-align: right;
+        padding: 7px 8px 5px;
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        min-height: 69px; 
+        float: left;
+        min-width: 300px;
+    }
+
+    .buttons {
+        margin: 0 -10px;
+
+        .clear-back {
+            button {
+                width: 140px;
+                height: 45px;
+
+                &.back {
+                    float: right;
+                }
+            }
+        }
+
+        button {
+            background-color: #808080;
+            color: #fff;
+            border: 0;
+            float: left;
+            width: 60px;
+            height: 50px;
+            font-size: 25px;
+            margin: 10px;
+            font-weight: 700;
+
+            &:hover {
+                background-color: #6c6b6b;
+            }
+
+            &.operator {
+                background-color: #65C7D0;
+            }
+
+            &.equal {
+                background-color: #E5595D;
+            }
+        }
+    }
+}
